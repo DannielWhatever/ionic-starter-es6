@@ -1,0 +1,14 @@
+{
+
+    "curly"         : false,
+    "esnext"        : true,
+    "browserify"    : true,
+    "undef"         : true,
+
+    "globals"       : {
+      "angular":true,
+      "console":true,
+      "cordova":true,
+      "FB":true
+    }
+}

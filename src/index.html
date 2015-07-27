@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Freddius 2</title>
+
+    <link href="${ASSETS}/app.min.css" rel="stylesheet"/><!--app & ionic styles-->
+    <script src="lib/ionic/js/ionic.bundle.js"></script><!--ionic bundle-->
+    <script src="cordova.js"></script><!--cordova-->
+    <script src="${ASSETS}/bundle.js"></script><!--app bundle-->
+
+  </head>
+  <body ng-app="starter">
+    <!-- fr facebook script -->
+    <div id="fb-root"></div>
+
+    <!-- The nav bar that will be updated as we navigate between views. -->
+    <ion-nav-bar class="bar-royal">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view></ion-nav-view>
+
+  </body>
+</html>

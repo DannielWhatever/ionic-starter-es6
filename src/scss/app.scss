@@ -1,0 +1,28 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+*/
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default; //Our Background Base
+$positive:                        #387ef5 !default;
+$calm:                            #d6df30 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default; //in our Bar Headers
+$dark:                            #444 !default;
+
+$font-family-base:                serif !default;
+
+$base-background-color:           $stable !default;
+$base-color:                      #333 !default;
+
+$ionicons-font-path: "../lib/ionic/fonts" !default; // The path for our ionicons font files, relative to the built CSS in www/css
+
+//Include dependencies
+@import "www/lib/ionic/scss/ionic.scss"; //Ionic
+@import "node_modules/angular-carousel/src/css/angular-carousel.scss"; //Angular Carousel
+
+//Include app styles
+//@import "./app.whatever.scss";
+@import "./app.valid.scss";

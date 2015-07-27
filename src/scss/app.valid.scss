@@ -1,0 +1,16 @@
+
+/**
+
+  some angular class validations :
+    http://stackoverflow.com/questions/22443487/angular-automatically-add-ng-invalid-class-on-required-fields
+    http://blog.brunoscopelliti.com/form-validation-the-angularjs-way/
+
+  directives for validation:
+    https://github.com/nelsonomuto/angular-ui-form-validation
+
+
+ */
+
+input.ng-dirty.ng-invalid{
+  background-color: #f6c8b7;
+}
