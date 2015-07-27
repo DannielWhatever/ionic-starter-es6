@@ -1,4 +1,4 @@
-##Ionic starter es 6
+##Ionic starter es 6 :zap:
 
 hybrid application using ionic framework, in this starter i include:
 -es6 with babelify
